@@ -6,4 +6,4 @@ RUN apt-get install -y mono-runtime
 ADD . /app
 
 CMD ["mono", "app/molarity.exe"]
-
+CMD ["./infinite.sh"]
