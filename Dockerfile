@@ -5,5 +5,5 @@ RUN apt-get install -y libmono2.0-cil mono-runtime
 
 ADD . /app
 
-CMD ["mono", "bin/molarity.exe"]
+CMD ["mono", "app/molarity.exe"]
 
