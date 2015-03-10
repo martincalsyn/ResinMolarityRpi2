@@ -1,11 +1,18 @@
 using System;
+using System.Diagnostics;
+using System.Threading;
+
 namespace Test
 {
     public class hello
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Well, hello there handsome");
+            while (true)
+            {
+                Console.WriteLine("Well, hello there handsome");
+		Thread.Sleep(1000);
+            }
         }
     }
 }
